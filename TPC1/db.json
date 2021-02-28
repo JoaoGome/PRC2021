@@ -1,0 +1,2126 @@
+{
+    "ucs": 
+    [
+      {
+        "id": "SPLN2021",
+        "anoLetivo": "2020/2021",
+        "designacao": "Scripting no Processamento de Linguagem Natural"
+      },
+      {
+        "id": "GCS2020",
+        "anoLetivo": "2020/2021",
+        "designacao": "Gramática na Compreensão de Software"
+      },
+      {
+        "id": "PRI2020",
+        "anoLetivo": "2020/2021",
+        "designacao": "Processamento e Representação de Informação"
+      },
+      {
+        "id": "PRC2021",
+        "anoLetivo": "2020/2021",
+        "designacao": "Processamento e Representação de Conhecimento"
+      },
+      {
+        "id": "AA22021",
+        "anoLetivo": "2020/2021",
+        "designacao": "Aprendizagem Automática II"
+      }
+    ],
+    "professores":
+    [
+        {
+            "id": "jcr",
+            "nome": "José Carlos Ramalho",
+            "ensina": ["PRI2020","PRC2021"]
+        },
+        {
+            "id": "jj",
+            "nome": "José João",
+            "ensina": "SPLN2021"
+        },
+        {
+            "id": "mr",
+            "nome": "Miguel Rocha",
+            "ensina": "AA2"
+        },
+        {
+            "id": "prh",
+            "nome": "Pedro Ramalho Henriques",
+            "ensina": "GCS2020"
+        }
+    ],
+    "alunos":
+    [
+        [
+            {
+              "id": 0,
+              "nome": "Holden",
+              "apelido": "Spears",
+              "idade": 19,
+              "frequenta": [
+                "PRC2021",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 1,
+              "nome": "Bonner",
+              "apelido": "Mccarthy",
+              "idade": 34,
+              "frequenta": [
+                "SPLN2021",
+                "AA2",
+                "PRC2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 2,
+              "nome": "Wade",
+              "apelido": "Odom",
+              "idade": 24,
+              "frequenta": []
+            },
+            {
+              "id": 3,
+              "nome": "Raymond",
+              "apelido": "Snyder",
+              "idade": 21,
+              "frequenta": [
+                "PRI2020",
+                "PRC2021",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 4,
+              "nome": "May",
+              "apelido": "Kemp",
+              "idade": 36,
+              "frequenta": [
+                "GCS2020",
+                "SPLN2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 5,
+              "nome": "Kayla",
+              "apelido": "Chang",
+              "idade": 31,
+              "frequenta": [
+                "GCS2020",
+                "PRC2021",
+                "SPLN2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 6,
+              "nome": "Schultz",
+              "apelido": "Ellison",
+              "idade": 23,
+              "frequenta": [
+                "PRI2020",
+                "PRC2021",
+                "AA2"
+              ]
+            },
+            {
+              "id": 7,
+              "nome": "Santos",
+              "apelido": "Anthony",
+              "idade": 20,
+              "frequenta": [
+                "AA2",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 8,
+              "nome": "Dianna",
+              "apelido": "Armstrong",
+              "idade": 33,
+              "frequenta": [
+                "AA2",
+                "GCS2020",
+                "SPLN2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 9,
+              "nome": "Henrietta",
+              "apelido": "Velez",
+              "idade": 23,
+              "frequenta": [
+                "PRC2021",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 10,
+              "nome": "Valenzuela",
+              "apelido": "Rodriquez",
+              "idade": 26,
+              "frequenta": [
+                "PRC2021",
+                "AA2",
+                "GCS2020",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 11,
+              "nome": "Gilmore",
+              "apelido": "Gonzalez",
+              "idade": 26,
+              "frequenta": [
+                "SPLN2021",
+                "PRC2021",
+                "AA2"
+              ]
+            },
+            {
+              "id": 12,
+              "nome": "Beck",
+              "apelido": "May",
+              "idade": 38,
+              "frequenta": [
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 13,
+              "nome": "Leach",
+              "apelido": "Russo",
+              "idade": 29,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 14,
+              "nome": "Mitzi",
+              "apelido": "Kelley",
+              "idade": 19,
+              "frequenta": [
+                "AA2",
+                "PRI2020",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 15,
+              "nome": "Neva",
+              "apelido": "Guzman",
+              "idade": 33,
+              "frequenta": [
+                "SPLN2021",
+                "PRI2020",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 16,
+              "nome": "Greer",
+              "apelido": "Mayer",
+              "idade": 20,
+              "frequenta": [
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 17,
+              "nome": "Pugh",
+              "apelido": "Fuentes",
+              "idade": 23,
+              "frequenta": [
+                "PRC2021",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 18,
+              "nome": "Alexis",
+              "apelido": "Adkins",
+              "idade": 26,
+              "frequenta": []
+            },
+            {
+              "id": 19,
+              "nome": "Tabitha",
+              "apelido": "Mccullough",
+              "idade": 18,
+              "frequenta": [
+                "GCS2020",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 20,
+              "nome": "Rodriquez",
+              "apelido": "Logan",
+              "idade": 19,
+              "frequenta": [
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 21,
+              "nome": "Cathleen",
+              "apelido": "Howe",
+              "idade": 38,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 22,
+              "nome": "Suzanne",
+              "apelido": "Blankenship",
+              "idade": 38,
+              "frequenta": [
+                "PRI2020",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 23,
+              "nome": "Clark",
+              "apelido": "Neal",
+              "idade": 30,
+              "frequenta": [
+                "PRC2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 24,
+              "nome": "Allison",
+              "apelido": "Carson",
+              "idade": 35,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 25,
+              "nome": "Evans",
+              "apelido": "Compton",
+              "idade": 39,
+              "frequenta": [
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 26,
+              "nome": "Lynn",
+              "apelido": "David",
+              "idade": 25,
+              "frequenta": [
+                "SPLN2021",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 27,
+              "nome": "Francesca",
+              "apelido": "Waller",
+              "idade": 26,
+              "frequenta": [
+                "AA2",
+                "GCS2020",
+                "PRI2020",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 28,
+              "nome": "Carter",
+              "apelido": "George",
+              "idade": 35,
+              "frequenta": []
+            },
+            {
+              "id": 29,
+              "nome": "Webb",
+              "apelido": "Gill",
+              "idade": 19,
+              "frequenta": [
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 30,
+              "nome": "Shannon",
+              "apelido": "Sparks",
+              "idade": 30,
+              "frequenta": [
+                "AA2",
+                "PRC2021",
+                "SPLN2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 31,
+              "nome": "Kelly",
+              "apelido": "Hopkins",
+              "idade": 31,
+              "frequenta": [
+                "PRC2021",
+                "AA2",
+                "PRI2020",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 32,
+              "nome": "Lesley",
+              "apelido": "Whitney",
+              "idade": 34,
+              "frequenta": [
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 33,
+              "nome": "Morrow",
+              "apelido": "Daniel",
+              "idade": 34,
+              "frequenta": [
+                "PRC2021",
+                "AA2"
+              ]
+            },
+            {
+              "id": 34,
+              "nome": "Boyer",
+              "apelido": "Romero",
+              "idade": 31,
+              "frequenta": [
+                "PRC2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 35,
+              "nome": "Gordon",
+              "apelido": "Knapp",
+              "idade": 25,
+              "frequenta": [
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 36,
+              "nome": "Goff",
+              "apelido": "Dillon",
+              "idade": 18,
+              "frequenta": []
+            },
+            {
+              "id": 37,
+              "nome": "Lyons",
+              "apelido": "Goodwin",
+              "idade": 25,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 38,
+              "nome": "Lorna",
+              "apelido": "Good",
+              "idade": 26,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 39,
+              "nome": "Mcclain",
+              "apelido": "Jackson",
+              "idade": 31,
+              "frequenta": [
+                "PRC2021",
+                "SPLN2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 40,
+              "nome": "Maureen",
+              "apelido": "Holden",
+              "idade": 40,
+              "frequenta": []
+            },
+            {
+              "id": 41,
+              "nome": "Arline",
+              "apelido": "Cantu",
+              "idade": 28,
+              "frequenta": []
+            },
+            {
+              "id": 42,
+              "nome": "Lacey",
+              "apelido": "Farrell",
+              "idade": 34,
+              "frequenta": []
+            },
+            {
+              "id": 43,
+              "nome": "Rodriguez",
+              "apelido": "Mosley",
+              "idade": 39,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 44,
+              "nome": "Bates",
+              "apelido": "Bright",
+              "idade": 34,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 45,
+              "nome": "Pollard",
+              "apelido": "Parrish",
+              "idade": 32,
+              "frequenta": []
+            },
+            {
+              "id": 46,
+              "nome": "Abigail",
+              "apelido": "Beasley",
+              "idade": 33,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 47,
+              "nome": "Bettye",
+              "apelido": "William",
+              "idade": 24,
+              "frequenta": [
+                "PRC2021",
+                "GCS2020",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 48,
+              "nome": "Peggy",
+              "apelido": "Nash",
+              "idade": 35,
+              "frequenta": [
+                "PRI2020",
+                "PRC2021",
+                "AA2",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 49,
+              "nome": "Swanson",
+              "apelido": "Rios",
+              "idade": 30,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 50,
+              "nome": "Rutledge",
+              "apelido": "Frank",
+              "idade": 33,
+              "frequenta": []
+            },
+            {
+              "id": 51,
+              "nome": "Haley",
+              "apelido": "Santiago",
+              "idade": 22,
+              "frequenta": [
+                "SPLN2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 52,
+              "nome": "Mcneil",
+              "apelido": "Nielsen",
+              "idade": 21,
+              "frequenta": [
+                "AA2",
+                "GCS2020",
+                "PRC2021",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 53,
+              "nome": "Charmaine",
+              "apelido": "Leblanc",
+              "idade": 34,
+              "frequenta": []
+            },
+            {
+              "id": 54,
+              "nome": "Butler",
+              "apelido": "Branch",
+              "idade": 36,
+              "frequenta": [
+                "SPLN2021",
+                "PRI2020",
+                "GCS2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 55,
+              "nome": "Winnie",
+              "apelido": "Freeman",
+              "idade": 25,
+              "frequenta": []
+            },
+            {
+              "id": 56,
+              "nome": "Delacruz",
+              "apelido": "Bender",
+              "idade": 29,
+              "frequenta": [
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 57,
+              "nome": "Sargent",
+              "apelido": "Hodge",
+              "idade": 21,
+              "frequenta": [
+                "SPLN2021",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 58,
+              "nome": "Green",
+              "apelido": "Valenzuela",
+              "idade": 20,
+              "frequenta": [
+                "GCS2020",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 59,
+              "nome": "Valerie",
+              "apelido": "Allen",
+              "idade": 24,
+              "frequenta": []
+            },
+            {
+              "id": 60,
+              "nome": "Michael",
+              "apelido": "Bryant",
+              "idade": 31,
+              "frequenta": [
+                "PRI2020",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 61,
+              "nome": "Hardy",
+              "apelido": "Carey",
+              "idade": 23,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 62,
+              "nome": "Blankenship",
+              "apelido": "Barrett",
+              "idade": 36,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 63,
+              "nome": "Best",
+              "apelido": "Hansen",
+              "idade": 19,
+              "frequenta": [
+                "PRI2020",
+                "GCS2020",
+                "AA2",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 64,
+              "nome": "Copeland",
+              "apelido": "Knight",
+              "idade": 18,
+              "frequenta": [
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 65,
+              "nome": "Beasley",
+              "apelido": "Ayers",
+              "idade": 22,
+              "frequenta": [
+                "PRI2020",
+                "AA2",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 66,
+              "nome": "Diane",
+              "apelido": "Becker",
+              "idade": 24,
+              "frequenta": []
+            },
+            {
+              "id": 67,
+              "nome": "Mcclure",
+              "apelido": "Key",
+              "idade": 27,
+              "frequenta": []
+            },
+            {
+              "id": 68,
+              "nome": "Morin",
+              "apelido": "Bean",
+              "idade": 35,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 69,
+              "nome": "Roach",
+              "apelido": "Velazquez",
+              "idade": 37,
+              "frequenta": [
+                "SPLN2021",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 70,
+              "nome": "Mcknight",
+              "apelido": "Dillard",
+              "idade": 37,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 71,
+              "nome": "Ingram",
+              "apelido": "Young",
+              "idade": 26,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 72,
+              "nome": "Katherine",
+              "apelido": "Matthews",
+              "idade": 36,
+              "frequenta": []
+            },
+            {
+              "id": 73,
+              "nome": "Paula",
+              "apelido": "Harvey",
+              "idade": 18,
+              "frequenta": [
+                "PRI2020",
+                "GCS2020",
+                "PRC2021",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 74,
+              "nome": "Beverly",
+              "apelido": "Vaughan",
+              "idade": 38,
+              "frequenta": []
+            },
+            {
+              "id": 75,
+              "nome": "Dudley",
+              "apelido": "Kirk",
+              "idade": 34,
+              "frequenta": [
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 76,
+              "nome": "Gay",
+              "apelido": "Mcconnell",
+              "idade": 36,
+              "frequenta": []
+            },
+            {
+              "id": 77,
+              "nome": "Beryl",
+              "apelido": "Dickerson",
+              "idade": 21,
+              "frequenta": [
+                "AA2",
+                "SPLN2021",
+                "PRC2021",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 78,
+              "nome": "Ramos",
+              "apelido": "Mendoza",
+              "idade": 33,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 79,
+              "nome": "Solis",
+              "apelido": "Mooney",
+              "idade": 28,
+              "frequenta": [
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 80,
+              "nome": "Alma",
+              "apelido": "Grant",
+              "idade": 30,
+              "frequenta": [
+                "GCS2020",
+                "SPLN2021",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 81,
+              "nome": "Joyner",
+              "apelido": "Lancaster",
+              "idade": 24,
+              "frequenta": []
+            },
+            {
+              "id": 82,
+              "nome": "Carroll",
+              "apelido": "Castillo",
+              "idade": 30,
+              "frequenta": [
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 83,
+              "nome": "Flynn",
+              "apelido": "Wilcox",
+              "idade": 30,
+              "frequenta": [
+                "PRC2021",
+                "AA2",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 84,
+              "nome": "Armstrong",
+              "apelido": "Jensen",
+              "idade": 32,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 85,
+              "nome": "Lourdes",
+              "apelido": "Phillips",
+              "idade": 33,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 86,
+              "nome": "Flossie",
+              "apelido": "Black",
+              "idade": 28,
+              "frequenta": [
+                "SPLN2021",
+                "PRI2020",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 87,
+              "nome": "Robles",
+              "apelido": "Mcintyre",
+              "idade": 32,
+              "frequenta": [
+                "GCS2020",
+                "AA2",
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 88,
+              "nome": "Johns",
+              "apelido": "Hammond",
+              "idade": 29,
+              "frequenta": []
+            },
+            {
+              "id": 89,
+              "nome": "Lily",
+              "apelido": "Erickson",
+              "idade": 34,
+              "frequenta": [
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 90,
+              "nome": "Riggs",
+              "apelido": "Hardy",
+              "idade": 33,
+              "frequenta": [
+                "AA2",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 91,
+              "nome": "Cornelia",
+              "apelido": "Hines",
+              "idade": 33,
+              "frequenta": [
+                "PRC2021",
+                "PRI2020",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 92,
+              "nome": "Berg",
+              "apelido": "Preston",
+              "idade": 40,
+              "frequenta": [
+                "AA2",
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 93,
+              "nome": "Estes",
+              "apelido": "Cummings",
+              "idade": 29,
+              "frequenta": [
+                "SPLN2021"
+              ]
+            },
+            {
+              "id": 94,
+              "nome": "Polly",
+              "apelido": "Burks",
+              "idade": 37,
+              "frequenta": [
+                "AA2",
+                "SPLN2021",
+                "GCS2020",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 95,
+              "nome": "Lynette",
+              "apelido": "Fletcher",
+              "idade": 33,
+              "frequenta": [
+                "AA2",
+                "PRC2021",
+                "PRI2020",
+                "GCS2020"
+              ]
+            },
+            {
+              "id": 96,
+              "nome": "Workman",
+              "apelido": "Mckee",
+              "idade": 35,
+              "frequenta": [
+                "PRC2021"
+              ]
+            },
+            {
+              "id": 97,
+              "nome": "Roberson",
+              "apelido": "Graves",
+              "idade": 34,
+              "frequenta": [
+                "SPLN2021",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020",
+                "AA2"
+              ]
+            },
+            {
+              "id": 98,
+              "nome": "Louisa",
+              "apelido": "Vang",
+              "idade": 29,
+              "frequenta": [
+                "AA2",
+                "GCS2020",
+                "PRC2021",
+                "PRI2020"
+              ]
+            },
+            {
+              "id": 99,
+              "nome": "Madeleine",
+              "apelido": "Morris",
+              "idade": 33,
+              "frequenta": [
+                "PRI2020",
+                "GCS2020",
+                "PRC2021"
+              ]
+            },
+            [
+                {
+                  "id": 100,
+                  "nome": "Fitzgerald",
+                  "apelido": "Fletcher",
+                  "idade": 18,
+                  "frequenta": [
+                    "GCS2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 101,
+                  "nome": "Melba",
+                  "apelido": "Witt",
+                  "idade": 29,
+                  "frequenta": [
+                    "AA2",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 102,
+                  "nome": "Noelle",
+                  "apelido": "Miranda",
+                  "idade": 36,
+                  "frequenta": [
+                    "PRC2021",
+                    "SPLN2021",
+                    "AA2",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 103,
+                  "nome": "Gray",
+                  "apelido": "Carney",
+                  "idade": 27,
+                  "frequenta": []
+                },
+                {
+                  "id": 104,
+                  "nome": "Ann",
+                  "apelido": "Mendez",
+                  "idade": 29,
+                  "frequenta": [
+                    "SPLN2021",
+                    "AA2",
+                    "GCS2020",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 105,
+                  "nome": "Kari",
+                  "apelido": "Knapp",
+                  "idade": 22,
+                  "frequenta": []
+                },
+                {
+                  "id": 106,
+                  "nome": "Byrd",
+                  "apelido": "Robles",
+                  "idade": 21,
+                  "frequenta": [
+                    "PRI2020",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 107,
+                  "nome": "Castillo",
+                  "apelido": "Greene",
+                  "idade": 34,
+                  "frequenta": [
+                    "PRC2021",
+                    "SPLN2021",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 108,
+                  "nome": "Samantha",
+                  "apelido": "Baird",
+                  "idade": 30,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 109,
+                  "nome": "Chandra",
+                  "apelido": "Tillman",
+                  "idade": 23,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 110,
+                  "nome": "Lizzie",
+                  "apelido": "Ochoa",
+                  "idade": 28,
+                  "frequenta": [
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 111,
+                  "nome": "Rodriguez",
+                  "apelido": "Cross",
+                  "idade": 25,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 112,
+                  "nome": "Anna",
+                  "apelido": "Mcmahon",
+                  "idade": 18,
+                  "frequenta": []
+                },
+                {
+                  "id": 113,
+                  "nome": "Mccarty",
+                  "apelido": "Hendrix",
+                  "idade": 37,
+                  "frequenta": [
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 114,
+                  "nome": "Bender",
+                  "apelido": "Bradshaw",
+                  "idade": 36,
+                  "frequenta": []
+                },
+                {
+                  "id": 115,
+                  "nome": "Howe",
+                  "apelido": "Holden",
+                  "idade": 19,
+                  "frequenta": []
+                },
+                {
+                  "id": 116,
+                  "nome": "Mosley",
+                  "apelido": "Morrow",
+                  "idade": 19,
+                  "frequenta": [
+                    "GCS2020",
+                    "PRC2021",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 117,
+                  "nome": "Fischer",
+                  "apelido": "Sellers",
+                  "idade": 36,
+                  "frequenta": []
+                },
+                {
+                  "id": 118,
+                  "nome": "Cecelia",
+                  "apelido": "Zamora",
+                  "idade": 21,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 119,
+                  "nome": "Logan",
+                  "apelido": "Reed",
+                  "idade": 37,
+                  "frequenta": [
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 120,
+                  "nome": "Oneal",
+                  "apelido": "Shaffer",
+                  "idade": 25,
+                  "frequenta": [
+                    "PRC2021",
+                    "SPLN2021",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 121,
+                  "nome": "Wyatt",
+                  "apelido": "Hamilton",
+                  "idade": 24,
+                  "frequenta": [
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 122,
+                  "nome": "Waller",
+                  "apelido": "Wolf",
+                  "idade": 22,
+                  "frequenta": [
+                    "AA2",
+                    "SPLN2021",
+                    "PRC2021",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 123,
+                  "nome": "Reed",
+                  "apelido": "Gonzales",
+                  "idade": 40,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 124,
+                  "nome": "Mullen",
+                  "apelido": "Weaver",
+                  "idade": 31,
+                  "frequenta": [
+                    "PRI2020",
+                    "SPLN2021",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 125,
+                  "nome": "Osborn",
+                  "apelido": "Marquez",
+                  "idade": 37,
+                  "frequenta": [
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 126,
+                  "nome": "Mcknight",
+                  "apelido": "Ayers",
+                  "idade": 39,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 127,
+                  "nome": "Avis",
+                  "apelido": "Livingston",
+                  "idade": 33,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 128,
+                  "nome": "Morse",
+                  "apelido": "Goodwin",
+                  "idade": 39,
+                  "frequenta": [
+                    "PRC2021",
+                    "GCS2020",
+                    "PRI2020",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 129,
+                  "nome": "Kimberly",
+                  "apelido": "Barnes",
+                  "idade": 39,
+                  "frequenta": [
+                    "AA2",
+                    "PRI2020",
+                    "PRC2021",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 130,
+                  "nome": "Rochelle",
+                  "apelido": "Blevins",
+                  "idade": 40,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 131,
+                  "nome": "Doyle",
+                  "apelido": "Raymond",
+                  "idade": 34,
+                  "frequenta": [
+                    "PRC2021",
+                    "GCS2020",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 132,
+                  "nome": "Janice",
+                  "apelido": "Gregory",
+                  "idade": 31,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 133,
+                  "nome": "Guthrie",
+                  "apelido": "Patterson",
+                  "idade": 25,
+                  "frequenta": [
+                    "PRI2020",
+                    "SPLN2021",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 134,
+                  "nome": "Battle",
+                  "apelido": "Dean",
+                  "idade": 26,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 135,
+                  "nome": "Kemp",
+                  "apelido": "Leblanc",
+                  "idade": 38,
+                  "frequenta": []
+                },
+                {
+                  "id": 136,
+                  "nome": "Rutledge",
+                  "apelido": "Skinner",
+                  "idade": 34,
+                  "frequenta": [
+                    "AA2",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 137,
+                  "nome": "Consuelo",
+                  "apelido": "Noel",
+                  "idade": 30,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 138,
+                  "nome": "Elva",
+                  "apelido": "Alford",
+                  "idade": 26,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 139,
+                  "nome": "Joanna",
+                  "apelido": "Johns",
+                  "idade": 21,
+                  "frequenta": [
+                    "AA2",
+                    "PRI2020",
+                    "PRC2021",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 140,
+                  "nome": "Latasha",
+                  "apelido": "Griffith",
+                  "idade": 22,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 141,
+                  "nome": "Christensen",
+                  "apelido": "Rivas",
+                  "idade": 30,
+                  "frequenta": [
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 142,
+                  "nome": "Angie",
+                  "apelido": "Marshall",
+                  "idade": 28,
+                  "frequenta": [
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 143,
+                  "nome": "Cherie",
+                  "apelido": "Clayton",
+                  "idade": 27,
+                  "frequenta": [
+                    "AA2",
+                    "PRI2020",
+                    "SPLN2021",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 144,
+                  "nome": "Valencia",
+                  "apelido": "Gomez",
+                  "idade": 25,
+                  "frequenta": []
+                },
+                {
+                  "id": 145,
+                  "nome": "Lilian",
+                  "apelido": "Cole",
+                  "idade": 18,
+                  "frequenta": []
+                },
+                {
+                  "id": 146,
+                  "nome": "Campbell",
+                  "apelido": "Arnold",
+                  "idade": 30,
+                  "frequenta": [
+                    "PRI2020",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 147,
+                  "nome": "Woodward",
+                  "apelido": "Keller",
+                  "idade": 23,
+                  "frequenta": []
+                },
+                {
+                  "id": 148,
+                  "nome": "Fanny",
+                  "apelido": "Rutledge",
+                  "idade": 35,
+                  "frequenta": [
+                    "PRC2021",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 149,
+                  "nome": "Long",
+                  "apelido": "Howell",
+                  "idade": 32,
+                  "frequenta": [
+                    "GCS2020",
+                    "SPLN2021",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 150,
+                  "nome": "Jefferson",
+                  "apelido": "Hardy",
+                  "idade": 37,
+                  "frequenta": [
+                    "AA2",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 151,
+                  "nome": "Dominguez",
+                  "apelido": "Barron",
+                  "idade": 33,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 152,
+                  "nome": "Herman",
+                  "apelido": "Andrews",
+                  "idade": 28,
+                  "frequenta": [
+                    "PRC2021",
+                    "SPLN2021",
+                    "PRI2020",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 153,
+                  "nome": "Flores",
+                  "apelido": "Mccarthy",
+                  "idade": 31,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 154,
+                  "nome": "Bettye",
+                  "apelido": "York",
+                  "idade": 36,
+                  "frequenta": []
+                },
+                {
+                  "id": 155,
+                  "nome": "Lambert",
+                  "apelido": "Beasley",
+                  "idade": 18,
+                  "frequenta": [
+                    "SPLN2021",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 156,
+                  "nome": "Travis",
+                  "apelido": "Maxwell",
+                  "idade": 39,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 157,
+                  "nome": "Elsie",
+                  "apelido": "Gay",
+                  "idade": 34,
+                  "frequenta": [
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 158,
+                  "nome": "Yesenia",
+                  "apelido": "Bush",
+                  "idade": 26,
+                  "frequenta": []
+                },
+                {
+                  "id": 159,
+                  "nome": "Nanette",
+                  "apelido": "Shepherd",
+                  "idade": 25,
+                  "frequenta": [
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 160,
+                  "nome": "Perkins",
+                  "apelido": "Rios",
+                  "idade": 22,
+                  "frequenta": [
+                    "PRC2021",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 161,
+                  "nome": "Rojas",
+                  "apelido": "Meyer",
+                  "idade": 39,
+                  "frequenta": [
+                    "PRI2020",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 162,
+                  "nome": "Snow",
+                  "apelido": "Hernandez",
+                  "idade": 40,
+                  "frequenta": [
+                    "PRI2020",
+                    "AA2",
+                    "SPLN2021",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 163,
+                  "nome": "Brittany",
+                  "apelido": "Osborne",
+                  "idade": 30,
+                  "frequenta": [
+                    "PRI2020",
+                    "PRC2021",
+                    "AA2",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 164,
+                  "nome": "Shirley",
+                  "apelido": "Dalton",
+                  "idade": 30,
+                  "frequenta": []
+                },
+                {
+                  "id": 165,
+                  "nome": "Charmaine",
+                  "apelido": "Dixon",
+                  "idade": 21,
+                  "frequenta": [
+                    "PRI2020",
+                    "PRC2021",
+                    "AA2",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 166,
+                  "nome": "Beth",
+                  "apelido": "Adkins",
+                  "idade": 21,
+                  "frequenta": [
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 167,
+                  "nome": "Agnes",
+                  "apelido": "Mullins",
+                  "idade": 34,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 168,
+                  "nome": "Carmella",
+                  "apelido": "Underwood",
+                  "idade": 19,
+                  "frequenta": [
+                    "SPLN2021",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 169,
+                  "nome": "Randi",
+                  "apelido": "Macias",
+                  "idade": 22,
+                  "frequenta": [
+                    "PRC2021",
+                    "SPLN2021",
+                    "PRI2020",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 170,
+                  "nome": "Chaney",
+                  "apelido": "Glenn",
+                  "idade": 37,
+                  "frequenta": [
+                    "AA2",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 171,
+                  "nome": "Annette",
+                  "apelido": "Wilson",
+                  "idade": 21,
+                  "frequenta": [
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 172,
+                  "nome": "Terrie",
+                  "apelido": "Ferguson",
+                  "idade": 29,
+                  "frequenta": []
+                },
+                {
+                  "id": 173,
+                  "nome": "Lawson",
+                  "apelido": "Lara",
+                  "idade": 26,
+                  "frequenta": [
+                    "GCS2020",
+                    "SPLN2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 174,
+                  "nome": "Curry",
+                  "apelido": "Bruce",
+                  "idade": 33,
+                  "frequenta": [
+                    "PRI2020",
+                    "PRC2021",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 175,
+                  "nome": "Blanca",
+                  "apelido": "Vance",
+                  "idade": 36,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "AA2",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 176,
+                  "nome": "Camacho",
+                  "apelido": "Velez",
+                  "idade": 21,
+                  "frequenta": [
+                    "AA2",
+                    "PRC2021",
+                    "GCS2020",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 177,
+                  "nome": "Clark",
+                  "apelido": "Jackson",
+                  "idade": 36,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 178,
+                  "nome": "Ramona",
+                  "apelido": "Malone",
+                  "idade": 35,
+                  "frequenta": [
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 179,
+                  "nome": "Craig",
+                  "apelido": "Petty",
+                  "idade": 22,
+                  "frequenta": [
+                    "AA2",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 180,
+                  "nome": "Tate",
+                  "apelido": "Ellison",
+                  "idade": 25,
+                  "frequenta": [
+                    "GCS2020",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 181,
+                  "nome": "Lavonne",
+                  "apelido": "Terrell",
+                  "idade": 21,
+                  "frequenta": [
+                    "AA2",
+                    "PRC2021",
+                    "SPLN2021",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 182,
+                  "nome": "Valdez",
+                  "apelido": "Hubbard",
+                  "idade": 24,
+                  "frequenta": [
+                    "GCS2020",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 183,
+                  "nome": "Violet",
+                  "apelido": "Leon",
+                  "idade": 40,
+                  "frequenta": []
+                },
+                {
+                  "id": 184,
+                  "nome": "Laura",
+                  "apelido": "Bowen",
+                  "idade": 33,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 185,
+                  "nome": "Nina",
+                  "apelido": "Horn",
+                  "idade": 23,
+                  "frequenta": [
+                    "AA2",
+                    "PRI2020",
+                    "GCS2020",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 186,
+                  "nome": "Combs",
+                  "apelido": "Sherman",
+                  "idade": 33,
+                  "frequenta": [
+                    "AA2",
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 187,
+                  "nome": "Leila",
+                  "apelido": "Dudley",
+                  "idade": 34,
+                  "frequenta": [
+                    "AA2",
+                    "PRC2021",
+                    "SPLN2021",
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 188,
+                  "nome": "Stefanie",
+                  "apelido": "Mcdowell",
+                  "idade": 21,
+                  "frequenta": [
+                    "PRI2020",
+                    "AA2",
+                    "SPLN2021",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 189,
+                  "nome": "Marian",
+                  "apelido": "Waters",
+                  "idade": 28,
+                  "frequenta": [
+                    "AA2",
+                    "GCS2020"
+                  ]
+                },
+                {
+                  "id": 190,
+                  "nome": "Norma",
+                  "apelido": "Montoya",
+                  "idade": 36,
+                  "frequenta": [
+                    "PRI2020",
+                    "GCS2020",
+                    "SPLN2021",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 191,
+                  "nome": "Livingston",
+                  "apelido": "Todd",
+                  "idade": 33,
+                  "frequenta": [
+                    "GCS2020",
+                    "AA2",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 192,
+                  "nome": "Estela",
+                  "apelido": "Byers",
+                  "idade": 35,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 193,
+                  "nome": "Deborah",
+                  "apelido": "Hopper",
+                  "idade": 18,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 194,
+                  "nome": "Sexton",
+                  "apelido": "Smith",
+                  "idade": 23,
+                  "frequenta": [
+                    "PRI2020"
+                  ]
+                },
+                {
+                  "id": 195,
+                  "nome": "Avila",
+                  "apelido": "Cruz",
+                  "idade": 22,
+                  "frequenta": [
+                    "SPLN2021"
+                  ]
+                },
+                {
+                  "id": 196,
+                  "nome": "Merritt",
+                  "apelido": "Munoz",
+                  "idade": 29,
+                  "frequenta": [
+                    "AA2",
+                    "SPLN2021",
+                    "PRC2021"
+                  ]
+                },
+                {
+                  "id": 197,
+                  "nome": "Margo",
+                  "apelido": "Mccormick",
+                  "idade": 30,
+                  "frequenta": [
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 198,
+                  "nome": "Franks",
+                  "apelido": "Alvarez",
+                  "idade": 29,
+                  "frequenta": [
+                    "SPLN2021",
+                    "GCS2020",
+                    "PRC2021",
+                    "PRI2020",
+                    "AA2"
+                  ]
+                },
+                {
+                  "id": 199,
+                  "nome": "Tabatha",
+                  "apelido": "Morgan",
+                  "idade": 31,
+                  "frequenta": [
+                    "AA2",
+                    "PRC2021",
+                    "GCS2020"
+                  ]
+                }
+              ]
+          ]
+    ]
+  }
