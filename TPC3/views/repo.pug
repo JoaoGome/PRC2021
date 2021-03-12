@@ -1,0 +1,19 @@
+extends layout 
+
+block content 
+    .w3-card-4 
+
+        if (info.length)
+            .w3-container 
+                table(class="w3-table-all")
+                    tr 
+                        th Classe  
+                    each i in info 
+                        tr 
+                            td
+                                a(href=`/repositorio/${id}/classe/${i}`) #{i} 
+                            
+        
+        else 
+            div(class="w3-container")
+                p Não há Classes!

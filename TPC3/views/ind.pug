@@ -1,0 +1,28 @@
+extends layout 
+
+block content 
+    .w3-card-4 
+
+        if (info.length)
+            .w3-container 
+                table(class="w3-table-all")
+                    tr 
+                        th Propriedade
+                        th Valor  
+                    each i in info 
+                        tr 
+                            td= i.type 
+                            if (i.type === "dir" || i.type === "esq")
+                                td 
+                                    a(href=`/repositorio/${id}/ind/${i.value}`) #{i.value} 
+                            else if (i.type == "type")
+                                td 
+                                    a(href=`/repositorio/${id}/classe/${i.value}`) #{i.value}
+                            else 
+                                td=i.value
+                                
+                            
+        
+        else 
+            div(class="w3-container")
+                p Não há Propriedades!
