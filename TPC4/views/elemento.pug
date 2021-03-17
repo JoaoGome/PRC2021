@@ -1,0 +1,30 @@
+extends layout 
+
+block content 
+    .w3-card-4 
+
+        if (info.length)
+            .w3-container 
+                table(class="w3-table-all")
+                    tr 
+                        th Propriedade
+                        th Valor  
+                    each i in info 
+                        tr 
+                            td= i.type 
+                            if (i.type === "group")
+                                td 
+                                    a(href=`/grupo/${element}/${group}/${period}/${i.value}`) #{i.value}
+
+                             
+                            else if (i.type == "period")
+                                td 
+                                    a(href=`/periodo/${element}/${group}/${period}/${i.value}`) #{i.value}
+                            else 
+                                td=i.value
+                                
+                            
+        
+        else 
+            div(class="w3-container")
+                p Não há Elementos!

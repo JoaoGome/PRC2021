@@ -1,0 +1,26 @@
+extends layout 
+
+block content 
+    .w3-card-4 
+
+        if (info.length)
+            .w3-container
+            p 
+
+            each i in info 
+                if (i.type === "name")
+                    p Name: #{i.value}
+
+                if (i.type === "number")
+                    p Number: #{i.value} 
+
+            b Lista de Elementos
+            each i in info 
+                ul
+                    if (i.type === "element")
+                        li
+                            a(href=`/elemento/${element}/${group}/${period}/${i.value}`) #{i.value}
+
+        else 
+            div(class="w3-container")
+                p Não há Periodos!
