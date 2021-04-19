@@ -4,9 +4,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.di.uminho.pt/prc2021/a82238/ficha> .
+@base <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#> .
 
-<http://www.di.uminho.pt/prc2021/a82238/ficha> rdf:type owl:Ontology .
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
@@ -103,8 +103,8 @@
 #    Individuals
 #################################################################
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#1dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#1dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#1dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#1dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Agosto ,
                                                              :Dezembro ,
@@ -121,8 +121,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#1esq
-<http://www.di.uminho.pt/prc2021/a82238/ficha#1esq> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#1esq
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#1esq> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Abril ,
                                                              :Agosto ,
@@ -139,8 +139,8 @@
                                                     :mensalidade "51.63"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#2dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#2dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#2dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#2dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Abril ,
                                                              :Agosto ,
@@ -157,8 +157,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#3dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#3dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#3dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#3dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :pago :Abril ,
                                                           :Agosto ,
@@ -175,8 +175,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#3esq
-<http://www.di.uminho.pt/prc2021/a82238/ficha#3esq> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#3esq
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#3esq> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Abril ,
                                                              :Agosto ,
@@ -193,8 +193,8 @@
                                                     :mensalidade "51.63"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#4dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#4dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#4dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#4dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :pago :Abril ,
                                                           :Agosto ,
@@ -211,8 +211,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#5dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#5dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Agosto ,
                                                              :Dezembro ,
@@ -229,8 +229,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#5esq
-<http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5esq
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5esq> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Agosto ,
                                                              :Dezembro ,
@@ -247,8 +247,8 @@
                                                     :mensalidade "51.63"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#6dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#6dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#6dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#6dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Dezembro ,
                                                              :Novembro ,
@@ -265,8 +265,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#7dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Agosto ,
                                                              :Dezembro ,
@@ -283,8 +283,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#7esq
-<http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7esq
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7esq> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Agosto ,
                                                              :Dezembro ,
@@ -301,8 +301,8 @@
                                                     :mensalidade "51.63"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#8dto
-<http://www.di.uminho.pt/prc2021/a82238/ficha#8dto> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#8dto
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#8dto> rdf:type owl:NamedIndividual ,
                                                              :fracao ;
                                                     :naoPago :Abril ,
                                                              :Agosto ,
@@ -319,8 +319,8 @@
                                                     :mensalidade "36.45"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/001
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/001> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/001
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/001> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :CGD ;
                                                                :data "2020-01-04" ;
@@ -329,8 +329,8 @@
                                                                :valor "7.28"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/004
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/004> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/004
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/004> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :EDP ;
                                                                :data "2020-01-08" ;
@@ -339,8 +339,8 @@
                                                                :valor 222.65 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/006
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/006> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/006
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/006> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :CGD ;
                                                                :data "2020-02-01" ;
@@ -349,8 +349,8 @@
                                                                :valor 7.28 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/009
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/009> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/009
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/009> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :Kone ;
                                                                :data "2020-01-20" ;
@@ -359,8 +359,8 @@
                                                                :valor 439.77 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/012
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/012> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/012
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/012> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :Serralheiro ;
                                                                :data "2020-02-24" ;
@@ -369,8 +369,8 @@
                                                                :valor 20.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/013
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/013> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/013
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/013> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :CMB ;
                                                                :data "2020-02-24" ;
@@ -379,8 +379,8 @@
                                                                :valor 194.30 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/016
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/016> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/016
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/016> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :PluriRapel ;
                                                                :data "2020-03-11" ;
@@ -389,8 +389,8 @@
                                                                :valor 1655.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/019
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/019> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/019
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/019> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :EDP ;
                                                                :data "2020-03-04" ;
@@ -399,8 +399,8 @@
                                                                :valor 236.59 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/021
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/021> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/021
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/021> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :CGD ;
                                                                :data "2020-03-07" ;
@@ -409,8 +409,8 @@
                                                                :valor 7.28 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/024
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/024> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/024
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/024> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :CGD ;
                                                                :data "2020-04-04" ;
@@ -419,8 +419,8 @@
                                                                :valor 7.28 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/029
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/029> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/029
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/029> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :Limpeza ;
                                                                :data "2020-04-15" ;
@@ -429,8 +429,8 @@
                                                                :valor 1080.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/031
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/031> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/031
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/031> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :referencia :Kone ;
                                                                :data "2020-04-01" ;
@@ -439,8 +439,8 @@
                                                                :valor 439.77 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/08
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/08> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/08
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Despesa2020/08> rdf:type owl:NamedIndividual ,
                                                                        :Livro ;
                                                               :referencia :Vizinhos ;
                                                               :data "2020-04-15" ;
@@ -449,29 +449,29 @@
                                                               :valor 207.98 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita/2020/010
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita/2020/010> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita/2020/010
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita/2020/010> rdf:type owl:NamedIndividual ,
                                                                          :Livro ;
-                                                                :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#1esq> ,
-                                                                            <http://www.di.uminho.pt/prc2021/a82238/ficha#3esq> ;
+                                                                :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#1esq> ,
+                                                                            <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#3esq> ;
                                                                 :data "2020-02-12" ;
                                                                 :descrição "Fevereiro e Março" ;
                                                                 :tipo "Receita" ;
                                                                 :valor 384.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/002
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/002> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/002
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/002> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7esq> ;
                                                                :data "2020-01-06" ;
                                                                :descrição "Janeiro" ;
                                                                :tipo "Receita" ;
                                                                :valor "64.0"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/003
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/003> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/003
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/003> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
                                                                :data "2020-01-06" ;
                                                                :descrição "Abril a Dezembro de 2019" ;
@@ -479,149 +479,149 @@
                                                                :valor "406.62"^^xsd:float .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/005
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/005> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/005
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/005> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7dto> ;
                                                                :data "2020-01-16" ;
                                                                :descrição "Janeiro" ;
                                                                :tipo "Receita" ;
                                                                :valor 45.18 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/007
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/007> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/007
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/007> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5esq> ;
                                                                :data "2020-02-04" ;
                                                                :descrição "Fevereiro" ;
                                                                :tipo "Receita" ;
                                                                :valor 64.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/008
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/008> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/008
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/008> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7esq> ;
                                                                :data "2020-02-06" ;
                                                                :descrição "Fevereiro" ;
                                                                :tipo "Receita" ;
                                                                :valor 64.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/011
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/011> rdf:type owl:NamedIndividual ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/011
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/011> rdf:type owl:NamedIndividual ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7dto> ;
                                                                :data "2020-02-20" ;
                                                                :descrição "Fevereiro" ;
                                                                :tipo "Receita" ;
                                                                :valor 45.18 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/014
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/014> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/014
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/014> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#1dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#1dto> ;
                                                                :data "2020-02-24" ;
                                                                :descrição "Acertos: Janeiro, Fevereiro, Março, Abril e 13.58 de Maio" ;
                                                                :tipo "Receita" ;
                                                                :valor 194.30 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/015
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/015> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/015
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/015> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5dto> ;
                                                                :data "2020-03-11" ;
                                                                :descrição "Janeiro a Junho" ;
                                                                :tipo "Receita" ;
                                                                :valor 271.08 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/017
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/017> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/017
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/017> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5esq> ;
                                                                :data "2020-02-26" ;
                                                                :descrição "Março" ;
                                                                :tipo "Receita" ;
                                                                :valor 64.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/018
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/018> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/018
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/018> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#3dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#3dto> ;
                                                                :data "2020-02-29" ;
                                                                :descrição "Janeiro a Dezembro" ;
                                                                :tipo "Receita" ;
                                                                :valor 542.16 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/020
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/020> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/020
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/020> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7esq> ;
                                                                :data "2020-03-06" ;
                                                                :descrição "Março" ;
                                                                :tipo "Receita" ;
                                                                :valor 64.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/022
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/022> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/022
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/022> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7dto> ;
                                                                :data "2020-03-15" ;
                                                                :descrição "Março" ;
                                                                :tipo "Receita" ;
                                                                :valor 45.18 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/023
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/023> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/023
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/023> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#5esq> ;
                                                                :data "2020-03-30" ;
                                                                :descrição "Abril" ;
                                                                :tipo "Receita" ;
                                                                :valor 64.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/025
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/025> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/025
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/025> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7esq> ;
                                                                :data "2020-04-06" ;
                                                                :descrição "Abril" ;
                                                                :tipo "Receita" ;
                                                                :valor 64.00 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/026
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/026> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/026
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/026> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#6dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#6dto> ;
                                                                :data "2020-04-07" ;
                                                                :descrição "Abril a Agosto" ;
                                                                :tipo "Receita" ;
                                                                :valor 225.90 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/030
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/030> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/030
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/030> rdf:type owl:NamedIndividual ,
                                                                         :Livro ;
-                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#4dto> ;
+                                                               :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#4dto> ;
                                                                :data "2020-04-15" ;
                                                                :descrição "Janeiro a Dezembro" ;
                                                                :tipo "Receita" ;
                                                                :valor 542.16 .
 
 
-###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/07
-<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/07> rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/07
+<http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Receita2020/07> rdf:type owl:NamedIndividual ,
                                                                        :Livro ;
-                                                              :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                              :referencia <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#7dto> ;
                                                               :data "2020-04-14" ;
                                                               :descrição "Abril" ;
                                                               :tipo "Receita" ;
