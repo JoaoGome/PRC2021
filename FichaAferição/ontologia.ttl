@@ -1,0 +1,749 @@
+@prefix : <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/a82238/ficha> .
+
+<http://www.di.uminho.pt/prc2021/a82238/ficha> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#naoPago
+:naoPago rdf:type owl:ObjectProperty ;
+         rdfs:domain :fracao ;
+         rdfs:range :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#pago
+:pago rdf:type owl:ObjectProperty ;
+      rdfs:domain :fracao ;
+      rdfs:range :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#possui
+:possui rdf:type owl:ObjectProperty ;
+        rdfs:domain :condominio ;
+        rdfs:range :fracao .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#referencia
+:referencia rdf:type owl:ObjectProperty ;
+            rdfs:range :fracao .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#data
+:data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#descrição
+:descrição rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#email
+:email rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#mensalidade
+:mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#telefone
+:telefone rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#tipo
+:tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#valor
+:valor rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Livro
+:Livro rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#condominio
+:condominio rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#entidades
+:entidades rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#fracao
+:fracao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#mes
+:mes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#proprietario
+:proprietario rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#1dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#1dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Abril ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Março ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#1esq
+<http://www.di.uminho.pt/prc2021/a82238/ficha#1esq> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Abril ,
+                                                             :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Março ;
+                                                    :mensalidade "51.63"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#2dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#2dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Abril ,
+                                                             :Agosto ,
+                                                             :Dezembro ,
+                                                             :Fevereiro ,
+                                                             :Janeiro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Março ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#3dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#3dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :pago :Abril ,
+                                                          :Agosto ,
+                                                          :Dezembro ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Julho ,
+                                                          :Junho ,
+                                                          :Maio ,
+                                                          :Março ,
+                                                          :Novembro ,
+                                                          :Outubro ,
+                                                          :Setembro ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#3esq
+<http://www.di.uminho.pt/prc2021/a82238/ficha#3esq> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Abril ,
+                                                             :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Março ;
+                                                    :mensalidade "51.63"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#4dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#4dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :pago :Abril ,
+                                                          :Agosto ,
+                                                          :Dezembro ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Julho ,
+                                                          :Junho ,
+                                                          :Maio ,
+                                                          :Março ,
+                                                          :Novembro ,
+                                                          :Outubro ,
+                                                          :Setembro ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#5dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#5dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Abril ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Junho ,
+                                                          :Maio ,
+                                                          :Março ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#5esq
+<http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Abril ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Março ;
+                                                    :mensalidade "51.63"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#6dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#6dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Dezembro ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Abril ,
+                                                          :Agosto ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Julho ,
+                                                          :Junho ,
+                                                          :Maio ,
+                                                          :Março ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#7dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Abril ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Março ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#7esq
+<http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Agosto ,
+                                                             :Dezembro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :pago :Abril ,
+                                                          :Fevereiro ,
+                                                          :Janeiro ,
+                                                          :Março ;
+                                                    :mensalidade "51.63"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#8dto
+<http://www.di.uminho.pt/prc2021/a82238/ficha#8dto> rdf:type owl:NamedIndividual ,
+                                                             :fracao ;
+                                                    :naoPago :Abril ,
+                                                             :Agosto ,
+                                                             :Dezembro ,
+                                                             :Fevereiro ,
+                                                             :Janeiro ,
+                                                             :Julho ,
+                                                             :Junho ,
+                                                             :Maio ,
+                                                             :Março ,
+                                                             :Novembro ,
+                                                             :Outubro ,
+                                                             :Setembro ;
+                                                    :mensalidade "36.45"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/001
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/001> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :CGD ;
+                                                               :data "2020-01-04" ;
+                                                               :descrição "Manutenção da conta" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor "7.28"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/004
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/004> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :EDP ;
+                                                               :data "2020-01-08" ;
+                                                               :descrição "Luz" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 222.65 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/006
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/006> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :CGD ;
+                                                               :data "2020-02-01" ;
+                                                               :descrição "Manutenção da conta" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 7.28 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/009
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/009> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :Kone ;
+                                                               :data "2020-01-20" ;
+                                                               :descrição "Manutenção dos elevadores" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 439.77 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/012
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/012> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :Serralheiro ;
+                                                               :data "2020-02-24" ;
+                                                               :descrição "Concerto do trinco da porta" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 20.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/013
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/013> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :CMB ;
+                                                               :data "2020-02-24" ;
+                                                               :descrição "Inspeção dos elevadores" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 194.30 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/016
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/016> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :PluriRapel ;
+                                                               :data "2020-03-11" ;
+                                                               :descrição "Reparação das fachadas" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 1655.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/019
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/019> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :EDP ;
+                                                               :data "2020-03-04" ;
+                                                               :descrição "Luz" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 236.59 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/021
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/021> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :CGD ;
+                                                               :data "2020-03-07" ;
+                                                               :descrição "Manutenção da conta" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 7.28 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/024
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/024> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :CGD ;
+                                                               :data "2020-04-04" ;
+                                                               :descrição "Manutenção da conta" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 7.28 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/029
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/029> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :Limpeza ;
+                                                               :data "2020-04-15" ;
+                                                               :descrição "Limpeza 2020" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 1080.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/031
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/031> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia :Kone ;
+                                                               :data "2020-04-01" ;
+                                                               :descrição "Manutenção dos elevadores: 2º trimestre" ;
+                                                               :tipo "Despesa" ;
+                                                               :valor 439.77 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/08
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Despesa2020/08> rdf:type owl:NamedIndividual ,
+                                                                       :Livro ;
+                                                              :referencia :Vizinhos ;
+                                                              :data "2020-04-15" ;
+                                                              :descrição "Luz Comum" ;
+                                                              :tipo "Despesa" ;
+                                                              :valor 207.98 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita/2020/010
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita/2020/010> rdf:type owl:NamedIndividual ,
+                                                                         :Livro ;
+                                                                :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#1esq> ,
+                                                                            <http://www.di.uminho.pt/prc2021/a82238/ficha#3esq> ;
+                                                                :data "2020-02-12" ;
+                                                                :descrição "Fevereiro e Março" ;
+                                                                :tipo "Receita" ;
+                                                                :valor 384.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/002
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/002> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :data "2020-01-06" ;
+                                                               :descrição "Janeiro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor "64.0"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/003
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/003> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :data "2020-01-06" ;
+                                                               :descrição "Abril a Dezembro de 2019" ;
+                                                               :tipo "Receita" ;
+                                                               :valor "406.62"^^xsd:float .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/005
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/005> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                               :data "2020-01-16" ;
+                                                               :descrição "Janeiro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 45.18 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/007
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/007> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> ;
+                                                               :data "2020-02-04" ;
+                                                               :descrição "Fevereiro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 64.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/008
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/008> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :data "2020-02-06" ;
+                                                               :descrição "Fevereiro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 64.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/011
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/011> rdf:type owl:NamedIndividual ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                               :data "2020-02-20" ;
+                                                               :descrição "Fevereiro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 45.18 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/014
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/014> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#1dto> ;
+                                                               :data "2020-02-24" ;
+                                                               :descrição "Acertos: Janeiro, Fevereiro, Março, Abril e 13.58 de Maio" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 194.30 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/015
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/015> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5dto> ;
+                                                               :data "2020-03-11" ;
+                                                               :descrição "Janeiro a Junho" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 271.08 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/017
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/017> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> ;
+                                                               :data "2020-02-26" ;
+                                                               :descrição "Março" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 64.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/018
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/018> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#3dto> ;
+                                                               :data "2020-02-29" ;
+                                                               :descrição "Janeiro a Dezembro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 542.16 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/020
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/020> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :data "2020-03-06" ;
+                                                               :descrição "Março" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 64.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/022
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/022> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                               :data "2020-03-15" ;
+                                                               :descrição "Março" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 45.18 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/023
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/023> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#5esq> ;
+                                                               :data "2020-03-30" ;
+                                                               :descrição "Abril" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 64.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/025
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/025> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7esq> ;
+                                                               :data "2020-04-06" ;
+                                                               :descrição "Abril" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 64.00 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/026
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/026> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#6dto> ;
+                                                               :data "2020-04-07" ;
+                                                               :descrição "Abril a Agosto" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 225.90 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/030
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/030> rdf:type owl:NamedIndividual ,
+                                                                        :Livro ;
+                                                               :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#4dto> ;
+                                                               :data "2020-04-15" ;
+                                                               :descrição "Janeiro a Dezembro" ;
+                                                               :tipo "Receita" ;
+                                                               :valor 542.16 .
+
+
+###  http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/07
+<http://www.di.uminho.pt/prc2021/a82238/ficha#Receita2020/07> rdf:type owl:NamedIndividual ,
+                                                                       :Livro ;
+                                                              :referencia <http://www.di.uminho.pt/prc2021/a82238/ficha#7dto> ;
+                                                              :data "2020-04-14" ;
+                                                              :descrição "Abril" ;
+                                                              :tipo "Receita" ;
+                                                              :valor 45.18 .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Abril
+:Abril rdf:type owl:NamedIndividual ,
+                :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Agosto
+:Agosto rdf:type owl:NamedIndividual ,
+                 :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#CGD
+:CGD rdf:type owl:NamedIndividual ,
+              :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#CMB
+:CMB rdf:type owl:NamedIndividual ,
+              :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Dezembro
+:Dezembro rdf:type owl:NamedIndividual ,
+                   :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#EDP
+:EDP rdf:type owl:NamedIndividual ,
+              :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Fevereiro
+:Fevereiro rdf:type owl:NamedIndividual ,
+                    :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Janeiro
+:Janeiro rdf:type owl:NamedIndividual ,
+                  :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Julho
+:Julho rdf:type owl:NamedIndividual ,
+                :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Junho
+:Junho rdf:type owl:NamedIndividual ,
+                :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Kone
+:Kone rdf:type owl:NamedIndividual ,
+               :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Limpeza
+:Limpeza rdf:type owl:NamedIndividual ,
+                  :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Loja
+:Loja rdf:type owl:NamedIndividual ,
+               :fracao ;
+      :naoPago :Abril ,
+               :Agosto ,
+               :Dezembro ,
+               :Fevereiro ,
+               :Janeiro ,
+               :Julho ,
+               :Junho ,
+               :Maio ,
+               :Março ,
+               :Novembro ,
+               :Outubro ,
+               :Setembro ;
+      :mensalidade "6.06"^^xsd:float .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Maio
+:Maio rdf:type owl:NamedIndividual ,
+               :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Março
+:Março rdf:type owl:NamedIndividual ,
+                :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Novembro
+:Novembro rdf:type owl:NamedIndividual ,
+                   :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Outubro
+:Outubro rdf:type owl:NamedIndividual ,
+                  :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#PluriRapel
+:PluriRapel rdf:type owl:NamedIndividual ,
+                     :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Serralheiro
+:Serralheiro rdf:type owl:NamedIndividual ,
+                      :entidades .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Setembro
+:Setembro rdf:type owl:NamedIndividual ,
+                   :mes .
+
+
+###  http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#Vizinhos
+:Vizinhos rdf:type owl:NamedIndividual ,
+                   :entidades .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

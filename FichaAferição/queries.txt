@@ -1,0 +1,60 @@
+---------------- QUERY 1 ----------------
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#>
+select ?entidades where { 
+    ?s :referencia ?entidades
+}
+
+
+---------------- QUERY 2 ----------------
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#>
+select ?s where { 
+    ?s :naoPago :Abril
+}
+
+---------------- QUERY 3 ----------------
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#>
+select ?entidades (sum(?valor) as ?valorTotal) where { 
+	?s rdf:type :Livro .
+    ?s :valor ?valor .
+    ?s :referencia ?entidades .
+}
+
+group by (?entidades)
+
+---------------- QUERY 4 ----------------
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#>
+select (sum(?valor) as ?valorTotal) where { 
+	?s rdf:type :fracao .
+    ?s :pago ?mes .
+    ?s :mensalidade ?valor .
+}
+
+---------------- QUERY 5 ----------------
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/johnny/ontologies/untitled-ontology-43#>
+select ?s (sum(?valor) as ?valorTotal) where { 
+	?s rdf:type :fracao .
+    ?s :pago ?mes .
+    ?s :mensalidade ?valor .
+}
+
+group by (?s)
