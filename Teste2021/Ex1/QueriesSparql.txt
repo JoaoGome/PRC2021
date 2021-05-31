@@ -1,0 +1,74 @@
+1)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.prc.di.uminho.pt/2021/TestePRC2021#>
+
+SELECT (COUNT (?exames) as ?nr_exames) WHERE {
+	?exames a :EMD ;
+}
+
+2)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.prc.di.uminho.pt/2021/TestePRC2021#>
+
+SELECT (COUNT (?exame) as ?nr_exames) WHERE {
+	?exame a :EMD ;
+ 		:resultado "True" .
+}
+
+3)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.prc.di.uminho.pt/2021/TestePRC2021#>
+
+SELECT ?genero (COUNT (?genero) as ?nr_exames) WHERE {
+	?atleta a :Atleta .
+	?atleta :género ?genero.
+    ?atleta :realiza ?exame .
+}
+group by(?genero)
+
+4)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.prc.di.uminho.pt/2021/TestePRC2021#>
+
+SELECT ?modalidade (COUNT (?modalidade) as ?nr_exames) WHERE {
+	?exame :referente ?modalidade .
+}
+group by(?modalidade)
+
+5)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.prc.di.uminho.pt/2021/TestePRC2021#>
+
+SELECT (COUNT (?atleta) as ?nr_atletas) WHERE {
+	 ?atleta :federado "True".
+	 ?atleta :pertence :GDGoma .
+     ?atleta :realiza ?exame .
+}
+
+6)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.prc.di.uminho.pt/2021/TestePRC2021#>
+
+SELECT (COUNT (?atleta) as ?nr_atletas) WHERE {
+	 ?atleta :género "F".
+	 ?atleta :pratica :Triatlo .
+     ?atleta :realiza ?exame .
+}
